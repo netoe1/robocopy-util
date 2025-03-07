@@ -141,6 +141,12 @@ Os valores são somados, então um código 3 significa "arquivos copiados com su
 - Para testar operações antes de executá-las, use `/L` (list only)
 - Robocopy é uma ferramenta poderosa, use com cautela, especialmente com opções como `/MIR` e `/PURGE`
 
+# Exemplo de Uso Pessoal
+
+```
+robocopy "C:\BACKUP FOTOS" "E:\FOTOS" /E /Z /MT:32 /ETA /W:3 /COPYALL
+```
+
 ## Referências
 
 Para informações completas, use o comando:
